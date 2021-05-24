@@ -148,6 +148,10 @@
     <hadoop.version>2.10.0</hadoop.version>
 
     <test-security-policy.path>${project.build.directory}/buildtools/src/test/resources/java.policy</test-security-policy.path>
+   
+     <sonar.projectKey>kovacstimea_mahout</sonar.projectKey>
+     <sonar.organization>kovacstimea</sonar.organization>
+     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
   <modules>
